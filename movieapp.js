@@ -20,7 +20,7 @@ function SubmitForm(event) {
 }
 
 function getMovie(title) {
-  const myPromise = fetch(`http://www.omdbapi.com/?apikey=f9cd76f0&t=${title}`);
+  const myPromise = fetch(`https://www.omdbapi.com/?apikey=f9cd76f0&t=${title}`);
 
   myPromise
     .then((res) => {
